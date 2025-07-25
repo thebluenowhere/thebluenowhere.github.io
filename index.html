@@ -40,37 +40,28 @@
     </main>
 
     <script type="module">
-        const postFiles = [
-            { file: "2025-07-24-neovim.md" },
-            { file: "2025-07-24-clair-obscur.md" }
-        ];
-
-        async function loadPostLinks() {
-            const postsContainer = document.getElementById('posts');
-
-            for (const { file } of postFiles) {
-                try {
-                    const res = await fetch(`posts/${file}`);
-                    const md = await res.text();
-                    const titleMatch = md.match(/^# (.+)/m);
-                    const title = titleMatch ? titleMatch[1].trim() : file;
-
-                    const dateMatch = file.match(/(\d{4}-\d{2}-\d{2})/);
-                    const slugMatch = file.match(/-(.+)\.md$/);
-                    const slug = slugMatch ? slugMatch[1] : "post";
-                    const date = dateMatch ? dateMatch[1] : 'Unknown date';
-
-                    const li = document.createElement('li');
-                    li.innerHTML = `<span>${date}</span> <a href="posts/${date}-${slug}/">${title}</a>`;
-                    postsContainer.appendChild(li);
-                } catch (err) {
-                    console.error(`Could not load ${file}`, err);
-                }
-            }
+    const posts = [
+        {
+            slug: "neovim",
+            date: "2025-07-24",
+            title: "Why Neovim Is My Daily Driver"
+        },
+        {
+            slug: "clair-obscur",
+            date: "2025-07-24",
+            title: "Opinion Review: Clair Obscur: Expedition 33"
         }
+    ];
 
-        loadPostLinks();
-    </script>
+    const postsContainer = document.getElementById('posts');
+
+    for (const { slug, date, title } of posts) {
+        const li = document.createElement('li');
+        li.innerHTML = `<span>${date}</span> <a href="posts/${date}-${slug}/">${title}</a>`;
+        postsContainer.appendChild(li);
+    }
+</script>
+
 
 
 </body>
