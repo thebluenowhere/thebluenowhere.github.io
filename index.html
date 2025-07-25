@@ -41,8 +41,8 @@
 
     <script type="module">
         const postFiles = [
-            { file: "posts/2025-07-24-neovim.md" },
-            { file: "posts/2025-07-24-clair-obscur.md" }
+            { file: "2025-07-24-neovim.md" },
+            { file: "2025-07-24-clair-obscur.md" }
         ];
 
         async function loadPostLinks() {
@@ -50,17 +50,18 @@
 
             for (const { file } of postFiles) {
                 try {
-                    const res = await fetch(file);
+                    const res = await fetch(`posts/${file}`);
                     const md = await res.text();
                     const titleMatch = md.match(/^# (.+)/m);
                     const title = titleMatch ? titleMatch[1].trim() : file;
 
-                    // Extract date from filename
                     const dateMatch = file.match(/(\d{4}-\d{2}-\d{2})/);
+                    const slugMatch = file.match(/-(.+)\.md$/);
+                    const slug = slugMatch ? slugMatch[1] : "post";
                     const date = dateMatch ? dateMatch[1] : 'Unknown date';
 
                     const li = document.createElement('li');
-                    li.innerHTML = `<span>${date}</span> <a href="view.html?post=${encodeURIComponent(file)}">${title}</a>`;
+                    li.innerHTML = `<span>${date}</span> <a href="posts/${date}-${slug}/">${title}</a>`;
                     postsContainer.appendChild(li);
                 } catch (err) {
                     console.error(`Could not load ${file}`, err);
@@ -70,6 +71,7 @@
 
         loadPostLinks();
     </script>
+
 
 </body>
 
