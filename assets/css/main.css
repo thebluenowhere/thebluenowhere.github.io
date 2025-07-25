@@ -1,0 +1,158 @@
+/* ----------------------------
+   Catppuccin Mocha Palette
+----------------------------- */
+:root {
+  --ctp-base:       #1e1e2e;
+  --ctp-mantle:     #181825;
+  --ctp-crust:      #11111b;
+
+  --ctp-text:       #cdd6f4;
+  --ctp-subtext1:   #bac2de;
+  --ctp-subtext0:   #a6adc8;
+
+  --ctp-surface0:   #313244;
+  --ctp-surface1:   #45475a;
+  --ctp-surface2:   #585b70;
+
+  --ctp-overlay0:   #6c7086;
+  --ctp-overlay1:   #7f849c;
+  --ctp-overlay2:   #9399b2;
+
+  --ctp-blue:       #89b4fa;
+  --ctp-green:      #a6e3a1;
+  --ctp-yellow:     #f9e2af;
+  --ctp-peach:      #fab387;
+  --ctp-red:        #f38ba8;
+  --ctp-mauve:      #cba6f7;
+  --ctp-pink:       #f5c2e7;
+  --ctp-teal:       #94e2d5;
+  --ctp-sky:        #89dceb;
+  --ctp-lavender:   #b4befe;
+}
+
+/* ----------------------------
+   Base Page Styles
+----------------------------- */
+body {
+  background-color: var(--ctp-base);
+  color: var(--ctp-text);
+  font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+/* Layout container */
+.container {
+  max-width: 650px;
+  margin: auto;
+}
+
+/* Headings */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--ctp-lavender);
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  text-transform: lowercase;
+  color: var(--ctp-subtext1);
+}
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin-top: 0.2em;
+  margin-bottom: 0.8em;
+}
+
+ul ul {
+  padding-left: 1em;
+}
+
+li {
+  margin: 0.3em 0;
+}
+
+/* Post date span */
+#posts li span {
+  color: var(--ctp-overlay1);
+  margin-right: 0.5em;
+}
+
+/* Links */
+a {
+  color: var(--ctp-green);
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--ctp-blue);
+}
+
+/* Highlighted post titles */
+a[href*="clair-obscur"],
+a[href*="neovim"] {
+  color: var(--ctp-yellow);
+}
+
+/* Terminal-style link icons (if using Nerd Font glyphs) */
+a.nerd-icon::before {
+  font-family: 'JetBrainsMono Nerd Font';
+  margin-right: 0.3em;
+}
+
+/* Personal name highlight */
+li.name {
+  color: var(--ctp-pink);
+  font-weight: bold;
+}
+
+/* Horizontal rule */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: var(--ctp-surface1);
+  margin: 2em 0;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 1em auto;
+}
+
+/* Sections */
+section {
+  margin-bottom: 40px;
+}
+
+/* Code blocks */
+pre, code {
+  background-color: var(--ctp-surface0);
+  color: var(--ctp-green);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+/* Prompt-style inline code */
+code.prompt {
+  color: var(--ctp-peach);
+}
+
+/* Blockquote */
+blockquote {
+  border-left: 3px solid var(--ctp-surface2);
+  padding-left: 1em;
+  color: var(--ctp-subtext0);
+  font-style: italic;
+  margin: 1em 0;
+}

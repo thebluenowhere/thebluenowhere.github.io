@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Loading...</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+  <main class="page-content">
+    <div class="container">
+      <a href="index.html">← Back to Home</a>
+      <hr />
+      <div id="post"></div>
+    </div>
+  </main>
+
+  <script type="module">
+    import { marked } from 'https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
+
+    const params = new URLSearchParams(window.location.search);
+    const postPath = params.get("post");
+
+    if (!postPath) {
+      document.getElementById('post').textContent = "No post specified.";
+    } else {
+      fetch(postPath)
+        .then(res => {
+          if (!res.ok) throw new Error("Failed to load post.");
+          return res.text();
+        })
+        .then(md => {
+          document.title = md.match(/^# (.+)/m)?.[1] ?? 'Post';
+          document.getElementById('post').innerHTML = marked(md);
+        })
+        .catch(err => {
+          document.getElementById('post').textContent = "Error loading post.";
+          console.error(err);
+        });
+    }
+  </script>
+</body>
+</html>
