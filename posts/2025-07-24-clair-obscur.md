@@ -2,7 +2,7 @@
 
 _Clair Obscur: Expedition 33_ is, without question, one of the most compelling RPG experiences I've had in recent years. The game’s rich narrative, hauntingly beautiful score, and emotionally grounded character arcs make it a standout in the genre.
 
-##  The Highlights
+##  `The Highlights`
 
 ### Story & Characters
 
@@ -16,7 +16,7 @@ The soundtrack is breathtaking. From quiet, introspective piano pieces to sweepi
 
 The game is visually stunning. Its painterly aesthetic and surreal, dreamlike environments make exploration a joy. Every frame feels like a living piece of artwork.
 
-## The Criticisms
+## `The Criticisms`
 
 While _Expedition 33_ shines in most areas, a few technical aspects pull it back slightly:
 
@@ -25,7 +25,7 @@ While _Expedition 33_ shines in most areas, a few technical aspects pull it back
 - **Platforming & Movement**: The movement system, particularly in platforming sections, feels a bit too floaty. It doesn’t ruin the experience but does make some traversal sections feel imprecise and clunky compared to the game’s otherwise high standards.
     
 
-## Final Thoughts
+## `Final Thoughts`
 
 Despite a few animation hiccups and some less-than-perfect movement mechanics, _Clair Obscur: Expedition 33_ delivers an unforgettable RPG journey. Its masterfully told story, evocative music, and beautifully realised world place it among the best narrative-driven RPGs in years.
 
