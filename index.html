@@ -1,74 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Blue Nowhere</title>
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Blue Nowhere</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <main class="page-content" aria-label="Content">
-    <div class="container">
-      <header>
-        <h1>The Blue Nowhere</h1>
-      </header>
-      <section> 
-        <h2>whoami</h2>
-        <ul>
-            <li class="name">Name: Michael (aka elevynn)</li>
-        </ul>
-        
-      </section>
+    <main class="page-content" aria-label="Content">
+        <div class="container">
+            <header>
+                <h1>The Blue Nowhere</h1>
+            </header>
+            <section>
+                <h2>whoami</h2>
+                <ul>
+                    <li class="name">Name: Michael (aka elevynn)</li>
+                </ul>
 
-      <section>
-        <h2>links</h2>
-        <ul>
-          <li><a href="https://github.com/thebluenowhere">github repo</a></li>
-          <li><a href="@elevynn@qoto.org">fediverse</a></li>
-          <li><a href="https://x.com/elevensghost">twitter</a></li>
-          <li><a href="mailto:thebluenowhere@protonmail.com">email</a></li>
-        </ul>
-      </section>
+            </section>
 
-      <section>
-        <h2>ramblings</h2>
-        <ul id="posts"></ul>
-      </section>
-    </div>
-  </main>
+            <section>
+                <h2>links</h2>
+                <ul>
+                    <li><a href="https://github.com/thebluenowhere">github repo</a></li>
+                    <li><a href="@elevynn@qoto.org">fediverse</a></li>
+                    <li><a href="https://x.com/elevensghost">twitter</a></li>
+                    <li><a href="mailto:thebluenowhere@protonmail.com">email</a></li>
+                </ul>
+            </section>
 
-<script type="module">
-  const postFiles = [
-    { file: "posts/2025-07-24-neovim.md" },
-    { file: "posts/2025-07-24-clair-obscur.md" }
-  ];
+            <section>
+                <h2>ramblings</h2>
+                <ul id="posts"></ul>
+            </section>
+        </div>
+    </main>
 
-  async function loadPostLinks() {
-    const postsContainer = document.getElementById('posts');
+    <script type="module">
+        const postFiles = [
+            { file: "posts/2025-07-24-neovim.md" },
+            { file: "posts/2025-07-24-clair-obscur.md" }
+        ];
 
-    for (const { file } of postFiles) {
-      try {
-        const res = await fetch(file);
-        const md = await res.text();
-        const titleMatch = md.match(/^# (.+)/m);
-        const title = titleMatch ? titleMatch[1].trim() : file;
+        async function loadPostLinks() {
+            const postsContainer = document.getElementById('posts');
 
-        // Extract date from filename
-        const dateMatch = file.match(/(\d{4}-\d{2}-\d{2})/);
-        const date = dateMatch ? dateMatch[1] : 'Unknown date';
+            for (const { file } of postFiles) {
+                try {
+                    const res = await fetch(file);
+                    const md = await res.text();
+                    const titleMatch = md.match(/^# (.+)/m);
+                    const title = titleMatch ? titleMatch[1].trim() : file;
 
-        const li = document.createElement('li');
-        li.innerHTML = `<span>${date}</span> <a href="view.html?post=${encodeURIComponent(file)}">${title}</a>`;
-        postsContainer.appendChild(li);
-      } catch (err) {
-        console.error(`Could not load ${file}`, err);
-      }
-    }
-  }
+                    // Extract date from filename
+                    const dateMatch = file.match(/(\d{4}-\d{2}-\d{2})/);
+                    const date = dateMatch ? dateMatch[1] : 'Unknown date';
 
-  loadPostLinks();
-</script>
+                    const li = document.createElement('li');
+                    li.innerHTML = `<span>${date}</span> <a href="view.html?post=${encodeURIComponent(file)}">${title}</a>`;
+                    postsContainer.appendChild(li);
+                } catch (err) {
+                    console.error(`Could not load ${file}`, err);
+                }
+            }
+        }
+
+        loadPostLinks();
+    </script>
 
 </body>
+
 </html>
