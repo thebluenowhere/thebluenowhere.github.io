@@ -4,27 +4,29 @@ title: "Review: Clair Obscur: Expedition 33"
 date: 2025-07-24
 ---
 
-_Clair Obscur: Expedition 33_ is one of the most compelling RPG experiences...
+_Clair Obscur: Expedition 33_ is, without question, one of the most compelling RPG experiences I've had in recent years.
 
-### The Highlights
+## `The Highlights`
 
-#### Story & Characters
+### Story & Characters
 
-Thoughtfully crafted, emotionally resonant...
+Exceptionally well-written. Meaningful character arcs. Emotionally resonant.
 
-#### Music
+### Music
 
-Breathtaking orchestral arrangements...
+Breathtaking orchestral score. Enhances every moment.
 
-#### Art & World Design
+### Art & World Design
 
-Painterly aesthetic, dreamlike environments...
+Painterly and dreamlike. Every frame a painting.
 
-### The Criticisms
+## `The Criticisms`
 
-- Lip Sync & Animations need polish
-- Movement can feel floaty
+- **Lip Sync & Animations**: Often feel like placeholders
+- **Movement/Platforming**: Too floaty, slightly clunky
 
-### Final Thoughts
+## `Final Thoughts`
 
-Despite a few hiccups, a 4/5 experience.
+Despite a few hiccups, _Clair Obscur: Expedition 33_ delivers an unforgettable journey.
+
+**Rating**: 4/5
