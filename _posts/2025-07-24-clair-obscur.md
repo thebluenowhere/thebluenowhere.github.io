@@ -4,29 +4,32 @@ title: "Review: Clair Obscur: Expedition 33"
 date: 2025-07-24
 ---
 
-_Clair Obscur: Expedition 33_ is, without question, one of the most compelling RPG experiences I've had in recent years.
+*Clair Obscur: Expedition 33* is, without question, one of the most compelling RPG experiences I've had in recent years. The game’s rich narrative, hauntingly beautiful score, and emotionally grounded character arcs make it a standout in the genre.
 
 ## `The Highlights`
 
 ### Story & Characters
 
-Exceptionally well-written. Meaningful character arcs. Emotionally resonant.
+The story is *exceptionally well written*, with a sense of pacing that keeps you engaged throughout. Each character feels thoughtfully crafted, with personal arcs that are meaningful and emotionally resonant. There's real care put into the dialogue and world-building — something that’s all too rare in modern RPGs.
 
 ### Music
 
-Breathtaking orchestral score. Enhances every moment.
+The soundtrack is breathtaking. From quiet, introspective piano pieces to sweeping orchestral arrangements during climactic battles, the music enhances every moment. It’s not just background noise — it’s part of the storytelling.
 
 ### Art & World Design
 
-Painterly and dreamlike. Every frame a painting.
+The game is visually stunning. Its painterly aesthetic and surreal, dreamlike environments make exploration a joy. Every frame feels like a living piece of artwork.
 
 ## `The Criticisms`
 
-- **Lip Sync & Animations**: Often feel like placeholders
-- **Movement/Platforming**: Too floaty, slightly clunky
+While *Expedition 33* shines in most areas, a few technical aspects pull it back slightly:
+
+- **Lip Sync & Animations**: These can occasionally feel like placeholders or default assets (maybe they are), lacking the polish found in the rest of the presentation. This sometimes results in awkward camera angles and visual misalignment that break immersion.
+
+- **Platforming & Movement**: The movement system, particularly in platforming sections, feels a bit too floaty. It doesn’t ruin the experience but does make some traversal sections feel imprecise and clunky compared to the game’s otherwise high standards.
 
 ## `Final Thoughts`
 
-Despite a few hiccups, _Clair Obscur: Expedition 33_ delivers an unforgettable journey.
+Despite a few animation hiccups and some less-than-perfect movement mechanics, *Clair Obscur: Expedition 33* delivers an unforgettable RPG journey. Its masterfully told story, evocative music, and beautifully realised world place it among the best narrative-driven RPGs in years.
 
-**Rating**: 4/5
+**Rating: 4/5**
