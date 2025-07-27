@@ -1,0 +1,4 @@
+title: The Blue Nowhere
+markdown: kramdown
+theme: null
+permalink: /posts/:year-:month-:day-:title/
