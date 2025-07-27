@@ -98,7 +98,7 @@ a:hover {
 
 /* Highlighted post titles */
 a[href*="clair-obscur"],
-a[href*="neovim"] {
+a[href*="neovim"] a[href*="new-system"] {
   color: var(--ctp-yellow);
 }
 
