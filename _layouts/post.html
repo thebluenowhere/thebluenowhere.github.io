@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/main.css" />
 </head>
 <body>
   <main class="page-content">
     <div class="container">
       <a href="/index.html">← Back to Home</a>
       <hr />
-      <article>
-        {{ content }}
+
+      <article itemscope itemtype="http://schema.org/BlogPosting">
+        <header>
+          <h1 itemprop="headline">{{ page.title }}</h1>
+          <p><time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">
+            {{ page.date | date: "%B %d, %Y" }}
+          </time></p>
+        </header>
+
+        <div itemprop="articleBody">
+          {{ content }}
+        </div>
       </article>
     </div>
   </main>
