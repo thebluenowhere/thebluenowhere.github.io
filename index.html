@@ -40,30 +40,32 @@
     </main>
 
     <script type="module">
-    const posts = [
-        {
-            slug: "neovim",
-            date: "2025-07-24",
-            title: "Why Neovim Is My Daily Driver"
-        },
-        {
-            slug: "clair-obscur",
-            date: "2025-07-24",
-            title: "Review: Clair Obscur: Expedition 33"
-        }, 
-        {   slug: "new-system", 
-            date: "2025-07-27", 
-            title: "Building my new system with linux in mind"
-    ];
+        const posts = [
+            {
+                slug: "neovim",
+                date: "2025-07-24",
+                title: "Why Neovim Is My Daily Driver"
+            },
+            {
+                slug: "clair-obscur",
+                date: "2025-07-24",
+                title: "Review: Clair Obscur: Expedition 33"
+            },
+            {
+                slug: "new-system",
+                date: "2025-07-27",
+                title: "Building my new system with linux in mind"
+            }
+        ];
 
-    const postsContainer = document.getElementById('posts');
+        const postsContainer = document.getElementById('posts');
 
-    for (const { slug, date, title } of posts) {
-        const li = document.createElement('li');
-        li.innerHTML = `<span>${date}</span> <a href="posts/${date}-${slug}/">${title}</a>`;
-        postsContainer.appendChild(li);
-    }
-</script>
+        for (const { slug, date, title } of posts) {
+            const li = document.createElement('li');
+            li.innerHTML = `<span>${date}</span> <a href="posts/${date}-${slug}/">${title}</a>`;
+            postsContainer.appendChild(li);
+        }
+    </script>
 
 
 
