@@ -34,7 +34,7 @@ I'm writing (or ranting) about this because of the recent amendment to the UK On
 
 All this encourages is surveillance of the British citizens, if they'd named it the Online Surveillance Act it would have been more accurate with it's purpose. I fear there's worse to come. 
 I strongly believe in personal freedom and a level of privacy for each person, with the new restrictions I've ended up deleting social media accounts entirely. Maybe there's a more honest reason for all these limitations though, it's possible the government decided we all need to go touch grass more post-covid - and that's the real reason for the invasion. (probs not though) 
-Anyway. I'm around on [Signal](https://discord.com/channels/849531724042862593/1367233516064084039/1400843679312384052) and [Email](mailto:thebluenowhere@protonmail.com)
+Anyway. I'm around on [Signal](https://signal.me/#eu/bYV6XVD40SW8OVSmiP9blASSj97NlVkLIrq7BsxkPjiEk63rWjdNUqGP02uvuBzu) and [Email](mailto:thebluenowhere@protonmail.com)
 
 I don't think I'll be around in other online spaces soon, not with the way things are going. 
 
