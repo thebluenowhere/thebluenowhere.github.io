@@ -160,4 +160,13 @@ article {
   body {
     margin: 20px;
   }
+  /* Highlighted Block */
+.highlighted-block {
+  background-color: var(--ctp-surface1);
+  color: var(--ctp-text);
+  border-left: 4px solid var(--ctp-blue);
+  padding: 1em;
+  border-radius: 4px;
+  margin: 1.5em 0;
+}
 }
