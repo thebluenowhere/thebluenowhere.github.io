@@ -155,22 +155,9 @@ article {
   margin-bottom: 2em;
 }
 
-/* Responsive adjustments */
-@media (max-width: 600px) {
-  body {
-    margin: 20px;
-  }
-  /* Highlighted Block */
+/* Highlighted Block */
 .highlighted-block {
   background-color: var(--ctp-surface2); /* Change to a lighter surface for better contrast */
   color: var(--ctp-text);
-  border-left: 4px solid var(--ctp-yellow); /* Use a brighter color for the border */
-  padding: 1em;
-  border-radius: 4px;
-  margin: 1.5em 0;
-  font-weight: bold; /* Make the text bold for emphasis */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
-}
+  border-left: 4px solid var(--ctp-yellow); /* Use a brighter color for the border
 
-}
-}
