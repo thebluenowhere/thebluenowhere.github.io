@@ -156,7 +156,7 @@ article {
 }
 /* Highlighted Block */
 .highlighted-block {
-  background-color: #3a3a4d; /* A softer, neutral color */
+  background-color: #4d918b; /* A softer, neutral color */
   color: var(--ctp-text);
   border-left: 4px solid var(--ctp-yellow); /* Keep the brighter color for the border */
   padding: 1em;
