@@ -162,11 +162,15 @@ article {
   }
   /* Highlighted Block */
 .highlighted-block {
-  background-color: var(--ctp-surface1);
+  background-color: var(--ctp-surface2); /* Change to a lighter surface for better contrast */
   color: var(--ctp-text);
-  border-left: 4px solid var(--ctp-blue);
+  border-left: 4px solid var(--ctp-yellow); /* Use a brighter color for the border */
   padding: 1em;
   border-radius: 4px;
   margin: 1.5em 0;
+  font-weight: bold; /* Make the text bold for emphasis */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+}
+
 }
 }
