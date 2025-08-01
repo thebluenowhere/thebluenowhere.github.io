@@ -39,7 +39,7 @@ Further to this, support channels such as /r/stopdrinking are innaccessible with
 
 All this encourages is surveillance of the British citizens, if they'd named it the Online Surveillance Act it would have been more accurate with it's purpose. I fear there's worse to come. 
 
-I strongly believe in personal freedom and a level of privacy for each person, with the new restrictions I've ended up deleting social media accounts entirely just out of sheer irritation. i
+I strongly believe in personal freedom and a level of privacy for each person, with the new restrictions I've ended up deleting social media accounts entirely just out of sheer irritation. 
 
 Maybe there's a more honest reason for all these limitations though, it's possible the government decided we all need to go touch grass more often - and that's the real reason for the invasion (probs not lol). 
 
