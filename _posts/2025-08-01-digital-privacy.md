@@ -8,9 +8,9 @@ date: 2025-08-01
 
 I'm writing (or ranting) about this because of the recent amendment to the UK Online Safety Act which is detailed as follows: 
 
-**As of 25 July 2025, platforms have a legal duty to protect children online. Platforms are now required to use highly effective age assurance to prevent children from accessing pornography, or content which encourages self-harm, suicide or eating disorder content.
+`As of 25 July 2025, platforms have a legal duty to protect children online. Platforms are now required to use highly effective age assurance to prevent children from accessing pornography, or content which encourages self-harm, suicide or eating disorder content.`
 
-**Platforms must also prevent children from accessing other harmful and age-inappropriate content such as bullying, hateful content and content which encourages dangerous stunts or ingesting dangerous substances. Platforms must also provide parents and children with clear and accessible ways to report problems online when they do arise. **
+`Platforms must also prevent children from accessing other harmful and age-inappropriate content such as bullying, hateful content and content which encourages dangerous stunts or ingesting dangerous substances. Platforms must also provide parents and children with clear and accessible ways to report problems online when they do arise.`
 
 ---
 
