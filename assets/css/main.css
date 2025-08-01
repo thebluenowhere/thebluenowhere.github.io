@@ -104,7 +104,8 @@ a:hover {
 /* Optional highlighted posts (keep or remove) */
 a[href*="clair-obscur"],
 a[href*="neovim"],
-a[href*="new-system"] {
+a[href*="new-system"], 
+a[href*="tal-privacy"]{
   color: var(--ctp-yellow);
 }
 
